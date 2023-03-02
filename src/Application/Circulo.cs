@@ -1,15 +1,15 @@
 namespace Application;
 
-public class Cuadrado
+public class Circulo
 {
-    public static double Perimetro(double lado)
+    public static double Perimetro(double pi, double radio)
     {
-        double perimetro = lado + lado + lado + lado;
+        double perimetro = 2 * pi * radio;
         return perimetro;
     }
-    public static double Area(double lado)
+    public static double Area(double pi, double radio)
     {
-        double area = lado * lado;
+        double area = pi * Math.Pow(radio,2);
         return area;
     }
 }

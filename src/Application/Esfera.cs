@@ -1,6 +1,6 @@
 namespace Application;
 
-public class PrismaCuadrangular
+public class Cilindro
 {
     public static double Volumen(double area, double altura)
     {
